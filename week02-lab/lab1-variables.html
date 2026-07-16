@@ -1,0 +1,21 @@
+<body>
+
+<h1>🧪 lab1</h1>
+<div id="output"></div>
+
+<script>
+const firstName = "อศิรกรณ์"; 
+const lastName = "อินทร์ยงค์";
+let age = 19;
+
+// สร้างข้อความ
+const message = `สวัสดี ฉันชื่อ ${firstName} ${lastName} อายุ ${age} ปี ปีหน้าจะอายุ ${age + 1} ปี`;
+
+// พิมพ์ลง Console เหมือนเดิม
+console.log(message);
+
+// นำข้อความไปแสดงบนหน้าเว็บในช่อง #output
+document.getElementById('output').innerText = message;
+</script>
+
+</body>
